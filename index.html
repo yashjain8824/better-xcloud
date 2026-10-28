@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Better xCloud — Ultimate Xbox Cloud Gaming Client & Enhancer</title>
+  <meta name="description" content="Official distribution portal for Better xCloud client binaries. Enhanced 1440p streaming, native controller haptics, custom touch controls, and ultra-low latency for iOS, Android, and Browsers.">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="bg-glow-1"></div>
+  <div class="bg-glow-2"></div>
+
+  <div class="container">
+    <!-- Navbar -->
+    <header class="navbar">
+      <a href="#" class="nav-brand">
+        <img src="assets/logo.png" alt="Better xCloud Logo" class="nav-logo">
+        <span>Better xCloud</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#downloads">Downloads</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#guides">Installation Guide</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+      <a href="#downloads" class="nav-btn">Get Client</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="badge">
+        <span class="badge-pulse"></span>
+        v0.24.2 Released • iOS, Android, Web & Windows
+      </div>
+      <h1>Cloud Gaming, Elevated.</h1>
+      <p class="hero-subtitle">
+        The ultimate client for Xbox Cloud Gaming (xCloud). Unlock crystal-clear 1440p/1080p high-bitrate video, full controller rumble & haptic feedback, custom touch controls, and ultra-low latency.
+      </p>
+      <div class="hero-actions">
+        <a href="#downloads" class="btn-primary">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/></svg>
+          Download Resources
+        </a>
+        <a href="#guides" class="btn-secondary">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+          Setup Guides
+        </a>
+      </div>
+    </section>
+
+    <!-- Downloads Section -->
+    <section id="downloads">
+      <div class="section-title">
+        <h2>Download Official Resources</h2>
+        <p>Pre-compiled releases with 1440p bitrate unlocks, dual haptics, and zero-latency WebRTC enhancements.</p>
+      </div>
+
+      <div class="downloads-grid">
+        <!-- Android Card -->
+        <div class="download-card">
+          <div class="card-icon">🤖</div>
+          <div class="card-header-tag">Android Client</div>
+          <h3>Better xCloud APK</h3>
+          <p>Full standalone Android application with built-in WebRTC acceleration, immersive fullscreen, and hardware controller support.</p>
+          <div class="meta-info">
+            <span>Version: <strong>v0.24.2 Fixed</strong></span>
+            <span>Size: <strong>6.75 MB</strong></span>
+          </div>
+          <a href="downloads/BetterXCloud_v0.24.2_Fixed.apk" class="btn-card" download>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+            Download APK
+          </a>
+        </div>
+
+        <!-- iOS Card -->
+        <div class="download-card">
+          <div class="card-icon">🍏</div>
+          <div class="card-header-tag">iOS / iPadOS</div>
+          <h3>Better xCloud IPA</h3>
+          <p>Native iOS app package optimized for iPhone and iPad with haptic engine bridge, high FPS stream rendering, and gesture navigation.</p>
+          <div class="meta-info">
+            <span>Version: <strong>v1.0 (iOS 15+)</strong></span>
+            <span>Size: <strong>1.22 MB</strong></span>
+          </div>
+          <a href="downloads/BetterXCloud_iOS.ipa" class="btn-card" download>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+            Download IPA
+          </a>
+        </div>
+
+        <!-- Web Userscript Card -->
+        <div class="download-card">
+          <div class="card-icon">🌐</div>
+          <div class="card-header-tag">Browser Script</div>
+          <h3>Optimized Userscript</h3>
+          <p>Pure browser extension script for Edge, Chrome, Firefox, Safari, and Kiwi Browser via Tampermonkey or Violentmonkey.</p>
+          <div class="meta-info">
+            <span>Format: <strong>.user.js</strong></span>
+            <span>Size: <strong>465 KB</strong></span>
+          </div>
+          <a href="downloads/better-xcloud-optimized.user.js" class="btn-card" download>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+            Install Userscript
+          </a>
+        </div>
+
+        <!-- Windows Card -->
+        <div class="download-card">
+          <div class="card-icon">💻</div>
+          <div class="card-header-tag">Windows App</div>
+          <h3>Desktop Client</h3>
+          <p>Dedicated low-latency desktop environment configured with hardware zero-copy rasterization and direct gamepad rumble.</p>
+          <div class="meta-info">
+            <span>OS: <strong>Windows 10 / 11</strong></span>
+            <span>Mode: <strong>Dedicated Client</strong></span>
+          </div>
+          <a href="#guide-windows" class="btn-card outline">
+            View Instructions
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Source Privacy Notice -->
+    <div class="privacy-callout">
+      <div class="privacy-icon">🛡️</div>
+      <div class="privacy-text">
+        <h3>Secure Distribution & Source Code Privacy</h3>
+        <p>
+          This public portal distributes ready-to-run release binaries, compiled application bundles, and userscript packages for players worldwide. All reverse-engineered pipelines, build automation suites, and proprietary source repositories are kept strictly private to protect code security and integrity.
+        </p>
+      </div>
+    </div>
+
+    <!-- Guides Section -->
+    <section id="guides">
+      <div class="section-title">
+        <h2>Sideloading & Installation Guides</h2>
+        <p>Step-by-step setup guides for each platform.</p>
+      </div>
+
+      <div class="guide-tabs">
+        <div class="tab-nav">
+          <button class="tab-btn active" data-tab="tab-ios">🍏 iOS / iPadOS</button>
+          <button class="tab-btn" data-tab="tab-android">🤖 Android</button>
+          <button class="tab-btn" data-tab="tab-web">🌐 Browser (Userscript)</button>
+          <button class="tab-btn" data-tab="tab-windows" id="guide-windows">💻 Windows</button>
+        </div>
+
+        <!-- iOS Guide -->
+        <div class="tab-content active" id="tab-ios">
+          <h3>Sideloading Better xCloud IPA on iOS</h3>
+          <p style="color: var(--text-muted); margin-bottom: 20px;">Choose whichever sideloading method fits your setup:</p>
+          <ol class="steps-list">
+            <li>
+              <strong>Download the IPA:</strong> Download <code>BetterXCloud_iOS.ipa</code> from the Downloads section above to your computer or iPhone.
+            </li>
+            <li>
+              <strong>Method 1 — Sideloadly (PC or Mac):</strong> Open Sideloadly, plug in your iPhone/iPad via USB or Wi-Fi, drag <code>BetterXCloud_iOS.ipa</code> into Sideloadly, enter your Apple ID, and click <em>Start</em>.
+            </li>
+            <li>
+              <strong>Method 2 — AltStore / SideStore:</strong> Transfer the IPA into the Files app, open AltStore or SideStore, navigate to <em>My Apps</em> &rarr; tap the <em>+</em> icon &rarr; select <code>BetterXCloud_iOS.ipa</code>.
+            </li>
+            <li>
+              <strong>Method 3 — TrollStore:</strong> If running TrollStore (iOS 14.0–16.6.1), simply share or open <code>BetterXCloud_iOS.ipa</code> directly in TrollStore for permanent, hassle-free installation.
+            </li>
+            <li>
+              <strong>Trust Certificate:</strong> On your iOS device, go to <em>Settings &rarr; General &rarr; VPN & Device Management</em>, find your Apple ID under Developer App, and tap <strong>Trust</strong>.
+            </li>
+          </ol>
+        </div>
+
+        <!-- Android Guide -->
+        <div class="tab-content" id="tab-android">
+          <h3>Installing Better xCloud APK on Android</h3>
+          <ol class="steps-list">
+            <li>
+              <strong>Download APK:</strong> Tap the <em>Download APK</em> button above to download <code>BetterXCloud_v0.24.2_Fixed.apk</code>.
+            </li>
+            <li>
+              <strong>Allow Unknown Sources:</strong> When prompted by your browser (Chrome/Firefox), tap <em>Settings</em> and toggle <em>Allow from this source</em>.
+            </li>
+            <li>
+              <strong>Install & Launch:</strong> Tap <em>Install</em>. Once installed, open <strong>Better xCloud</strong> from your app drawer.
+            </li>
+            <li>
+              <strong>Sign In & Play:</strong> Log in with your Xbox Game Pass Ultimate account. Stream settings and touch controller configurations are pre-tuned for maximum performance.
+            </li>
+          </ol>
+        </div>
+
+        <!-- Web Guide -->
+        <div class="tab-content" id="tab-web">
+          <h3>Installing via Tampermonkey / Violentmonkey</h3>
+          <ol class="steps-list">
+            <li>
+              <strong>Install Userscript Manager:</strong> Install the <a href="https://www.tampermonkey.net/" target="_blank" style="color: var(--accent-glow);">Tampermonkey</a> or <a href="https://violentmonkey.github.io/" target="_blank" style="color: var(--accent-glow);">Violentmonkey</a> extension for your browser (Chrome, Edge, Brave, Kiwi, or Firefox).
+            </li>
+            <li>
+              <strong>Install Better xCloud Script:</strong> Click <em>Install Userscript</em> above (or open <code>better-xcloud-optimized.user.js</code>). Tampermonkey will prompt you to confirm the installation—click <strong>Install</strong>.
+            </li>
+            <li>
+              <strong>Navigate to Xbox Cloud Gaming:</strong> Go to <a href="https://www.xbox.com/play" target="_blank" style="color: var(--accent-glow);">xbox.com/play</a>.
+            </li>
+            <li>
+              <strong>Enjoy Enhanced Stream:</strong> The Better xCloud UI button appears at the top left, giving you instant access to 1440p bitrate controls, audio boost, and HUD stats.
+            </li>
+          </ol>
+        </div>
+
+        <!-- Windows Guide -->
+        <div class="tab-content" id="tab-windows">
+          <h3>Running the Windows Dedicated Client</h3>
+          <ol class="steps-list">
+            <li>
+              <strong>Zero-Copy GPU Stream:</strong> The Windows client runs with hardware-accelerated WebRTC decoding and unthrottled background gaming.
+            </li>
+            <li>
+              <strong>One-Click Launcher:</strong> In your Better xCloud Windows directory, launch <code>Launch_Better_xCloud.bat</code> or execute <code>npm start</code>.
+            </li>
+            <li>
+              <strong>Full Controller Rumble:</strong> Gamepad vibration actuators are enabled natively without extra drivers or software bridges.
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section id="features">
+      <div class="section-title">
+        <h2>Engineered for Performance</h2>
+        <p>Every feature built to deliver the highest quality cloud gaming experience.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-box">
+          <div class="feature-icon">🚀</div>
+          <h4>1080p & 1440p High Bitrate Unlock</h4>
+          <p>Bypass Microsoft's default bitrate caps. Enjoy pristine video clarity with up to 1440p resolution streaming and reduced macroblocking.</p>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon">🎮</div>
+          <h4>True Controller Haptics</h4>
+          <p>Dual-motor gamepad vibration supported across platforms with adjustable intensity for authentic console rumble feedback.</p>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon">📱</div>
+          <h4>Custom Touch Controller Overlay</h4>
+          <p>Play games without a physical controller using our customizable touch layout editor with opacity and button scaling.</p>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon">⚡</div>
+          <h4>Ultra-Low Latency WebRTC</h4>
+          <p>Fine-tuned WebRTC buffer configurations minimize input lag and smooth out network jitter during intense gameplay sessions.</p>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon">📊</div>
+          <h4>Real-Time Performance HUD</h4>
+          <p>Monitor real-time FPS, bitrate, round-trip ping time, frame drops, and audio decoding metrics in an unobtrusive overlay.</p>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon">🖥️</div>
+          <h4>Aspect Ratio & Ultrawide Support</h4>
+          <p>Flexible display scaling including 16:9, 16:10, and 21:9 ultrawide stretching to eliminate black borders on modern devices.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq">
+      <div class="section-title">
+        <h2>Frequently Asked Questions</h2>
+        <p>Everything you need to know about Better xCloud resources.</p>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">
+            Do I need an Xbox Game Pass Ultimate subscription?
+            <span>+</span>
+          </button>
+          <div class="faq-answer">
+            Yes. Xbox Cloud Gaming requires an active Xbox Game Pass Ultimate subscription (or free-to-play titles like Fortnite that Microsoft offers for free).
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Is this safe to use with my Microsoft Account?
+            <span>+</span>
+          </button>
+          <div class="faq-answer">
+            Yes. Better xCloud loads the official Xbox Cloud Gaming web client directly via secure HTTPS. Your credentials are sent directly to Microsoft authentication servers and are never collected or stored.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Why is the source code kept private while binaries are public?
+            <span>+</span>
+          </button>
+          <div class="faq-answer">
+            To ensure binary integrity, security, and prevent unverified forks from misusing user authentication tokens, internal build pipelines and source code are maintained securely in a private repository. All compiled releases and installation guides are distributed openly here.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Does controller vibration work wirelessly on iOS?
+            <span>+</span>
+          </button>
+          <div class="faq-answer">
+            Yes! When using the native iOS IPA build, our integrated haptics bridge communicates with supported Xbox and PlayStation Bluetooth controllers via the iOS Game Controller framework.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2026 Better xCloud Project. Distributed for personal gaming enhancement.</p>
+      <p style="margin-top: 8px; font-size: 0.8rem; color: #5a6a7e;">
+        Xbox, Xbox Cloud Gaming, and xCloud are registered trademarks of Microsoft Corporation. This project is independent and unaffiliated with Microsoft.
+      </p>
+    </footer>
+  </div>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
